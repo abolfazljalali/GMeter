@@ -96,7 +96,8 @@ include/
 lib/
 share/
 pyvenv.cfg
-
+.DS_Store
+src/__pycache__/hw_interface.cpython-310.pyc
 
 # Spyder project settings
 .spyderproject
