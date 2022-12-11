@@ -46,6 +46,3 @@ class HardwareInterface():
         if self.daq_port == None or not self.daq_port.is_open:
             return None
         return self.daq_port.readline().decode()
-
-x = HardwareInterface('/dev/cu.usbmodem14101', 9600, 10, print)
-x.open_port()
